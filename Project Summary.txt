@@ -1,0 +1,21 @@
+Problem / Objective / Opportunity:
+Videojet currently don’t have a data driven approach of identifying the sequence of key triggers / irritants
+that leads customers to leave or consume less.  Also, we currently cannot correlate any triggers / irritants to customer churn.  
+In addition, we also don’t have clarity, based on data, of how the customer experience at certain points on their 
+consumption journey (i.e. purchasing the initial equipment) impacts their purchased decision related to other parts of 
+the consumption journey (i.e. purchasing the consumables associated with the equipment).
+
+Said differently, what defines a churn triggers / irritants, what is the correlation between these triggers/irritants and churn value, and what
+analytics to run to parse / identify these patterns while they are happening.
+
+What is Expected
+Highly accurate predictive model that allows us to identify key triggers / irritants that cause our customers to leave or consume less.  The predictive model needs to
+1.	Project 1
+a.	Identify key customer clusters based on key segmentation … for example based on customer, product, service, transactional attributes, etc.
+
+2.	Project 2
+a.	For each customer cluster, identify the trigger/irritant or group of triggers/irritants that leads a customer to leave or consume less
+b.	For each customer cluster, identify the sequence of triggers / irritants that leads a customer to leave or consume less
+
+3.	Project 3
+a.	Identify how the customer experience at certain points of the consumption journey (i.e. purchasing the initial equipment) impacts (financial and behavioral) their purchase behavior at other consumption points (i.e. purchasing the consumables associated with the equipment).

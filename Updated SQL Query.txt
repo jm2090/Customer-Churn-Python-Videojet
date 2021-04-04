@@ -1,0 +1,10 @@
+select * 
+from [5019T_Site_Level_Price_Index_SUP] pin	
+join VJ_Customer_Sites_Tab cs 
+on  cs.SHIP_TO_SITE_NUMBER = pin.Site_ID
+join dbo.VJ_SUP_Revenue_Trxns_Tab r
+on r.DUNS_NUMBER=cs.DUNS_NUMBER and r.SHIP_TO_SITE_ID=cs.CUSTOMER_SITE_ID and pin.yYEAR+2000 = year(r.TRX_DATE) and r.ITEM_ID = pin.ITEM_ID
+join dbo.VJ_SUP_Products_Tab pr
+on r.ITEM_ID=pr.ITEM_ID
+
+
